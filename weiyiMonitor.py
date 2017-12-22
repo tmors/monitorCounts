@@ -30,12 +30,12 @@ while (True):
             if (i["status"] == 4):
                 # send sms
                 # 下面认证信息的值在你的 twilio 账户里可以找到
-                account_sid = "AC5579357beb4931ec5d93e705aaeda8f8"
-                auth_token = "47f21a5441d0c15feb05ac65a2ca7970"
+                account_sid = "公开删除"
+                auth_token = "公开删除"
                 client = Client(account_sid, auth_token)
 
-                message = client.messages.create(to="+8618107346803",  # 区号+你的手机号码
-                                                 from_="+12053012427",  # 你的 twilio 电话号码
+                message = client.messages.create(to="+86公开删除d",  # 区号+你的手机号码
+                                                 from_="+1公开删除",  # 你的 twilio 电话号码
                                                  body="杨农05-31有位置")
 
                 break
